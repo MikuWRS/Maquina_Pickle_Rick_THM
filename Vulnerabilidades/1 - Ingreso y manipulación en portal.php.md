@@ -4,20 +4,23 @@ Mediante la página `IP_MAQUINA/login.php` podemos acceder a un login donde nos 
 Probando estos textos como usuario y contraseña respectivamente, se consiguio acceso a un página llamada `IP_MAQUINA/portal.php` donde hay acceso a un panel de comando como se muestra a continuación:
 
 ![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410185224.png)
-[//]: # (![[Pasted image 20210410185224.png]])
+![[Pasted image 20210410185224.png]]
 
 ---
 # Probando comandos en la consola remota
 Utilizando el comando de consola `whoami` obtenemos como respuesta que somos el usuario "www-data". Por lo tanto, ya podemos decir que estamos dentro del sistema.
 
+![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410185344.png)
 ![[Pasted image 20210410185344.png]]
 
 Luego realizando un `ls` para ver contenidos de la carpeta actual podemos ver lo siguiente:
 
+![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410185424.png)
 ![[Pasted image 20210410185424.png]]
 
 De esto existen 2 archivos que podrian ser interesantes para resolver la máquina. Uno es "Sup3rS3cretPickl3Ingred.txt" y "clue.txt". Lamentablemente no podemos ver el contenido de estos archivos ya que el comando `cat` se encuentra deshabilitado como se muestra a continuación:
 
+![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410190045.png)
 ![[Pasted image 20210410190045.png]]
 
 Sin embargo, podemos realizar un pequeño truco para burlar este problema. 
@@ -33,6 +36,7 @@ Bash permite utilizar la siguiente estructura para los resolutores de comandos `
 
 Ejecutado este comando nos responde con el siguiente mensaje donde podemos ver nuestra primera flag de la máquina:
 
+![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410190742.png)
 ![[Pasted image 20210410190742.png]]
 
 ---
