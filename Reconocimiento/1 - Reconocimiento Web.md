@@ -3,11 +3,11 @@
 Mediante el uso de un navegador se accede a la dirección IP `IP_MAQUINA` correspondiente a la IP de la máquina dada.
 
 Donde se muestra la siguiente pagina.
-![[Pasted image 20210410180212.png]]
+![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410180212.png)
+
 
 Utilizando 	`ctrl + U`  se accede al codigo fuente de la página que se muestra a continuación.
-
-![[Pasted image 20210410180333.png]]
+![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410180333.png)
 
 Donde podemos apreciar la existencia de un potencial usuario del sistema llamado **R1ckRul3s**.
 
