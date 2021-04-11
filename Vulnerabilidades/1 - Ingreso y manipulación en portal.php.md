@@ -3,7 +3,8 @@ Mediante la página `IP_MAQUINA/login.php` podemos acceder a un login donde nos 
 
 Probando estos textos como usuario y contraseña respectivamente, se consiguio acceso a un página llamada `IP_MAQUINA/portal.php` donde hay acceso a un panel de comando como se muestra a continuación:
 
-![[Pasted image 20210410185224.png]]
+![image](https://github.com/MikuWRS/Maquina_Pickle_Rick_THM/blob/main/imgs/Pasted%20image%2020210410185224.png)
+[//]: # (![[Pasted image 20210410185224.png]])
 
 ---
 # Probando comandos en la consola remota
